@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -354,3 +355,361 @@ footer{
 
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>منصة الكسائي</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Cairo', sans-serif;
+}
+
+/* 🔥 الخلفية المتحركة */
+body{
+    min-height:100vh;
+    background:
+    linear-gradient(rgba(10,0,30,0.75), rgba(10,0,30,0.75)),
+    url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1920&auto=format&fit=crop');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    animation: moveBg 18s ease-in-out infinite alternate;
+}
+
+@keyframes moveBg {
+    0%{
+        background-position:center top;
+        transform: scale(1);
+    }
+    100%{
+        background-position:center bottom;
+        transform: scale(1.05);
+    }
+}
+
+/* nav */
+nav{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 35px;
+    background:rgba(0,0,0,0.25);
+    backdrop-filter:blur(8px);
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.menu{
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+}
+
+.menu a{
+    text-decoration:none;
+    color:white;
+    background:#5b21b6;
+    padding:8px 14px;
+    border-radius:8px;
+    transition:0.3s;
+    font-size:13px;
+}
+
+.menu a:hover{
+    background:#7c3aed;
+    transform:translateY(-2px);
+}
+
+.logo{
+    font-size:20px;
+    font-weight:bold;
+}
+
+/* main */
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:80vh;
+}
+
+.card{
+    width:520px;
+    padding:30px;
+    border-radius:20px;
+    background:rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.15);
+    backdrop-filter:blur(12px);
+    text-align:center;
+}
+
+/* boxes */
+.box{
+    background:rgba(255,255,255,0.08);
+    padding:12px;
+    margin:10px 0;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.box:hover{
+    background:rgba(139,92,246,0.35);
+    transform:scale(1.02);
+}
+
+/* sections */
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.grid-cards{
+    max-width:1000px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card-box{
+    background:rgba(255,255,255,0.08);
+    padding:20px;
+    border-radius:15px;
+    border:1px solid rgba(255,255,255,0.15);
+    backdrop-filter:blur(10px);
+}
+
+/* services */
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:15px;
+    margin-top:20px;
+}
+
+.service-box{
+    background:rgba(255,255,255,0.08);
+    padding:18px;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.service-box:hover{
+    background:rgba(139,92,246,0.35);
+    transform:scale(1.05);
+}
+
+.service-box a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* images */
+.card-box img{
+    width:100%;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+
+/* footer */
+footer{
+    text-align:center;
+    padding:25px;
+    color:#ddd;
+    font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- nav -->
+<nav>
+
+<div style="display:flex; align-items:center; gap:10px;">
+    <img src="logo.png" alt="شعار الكسائي" style="width:40px; height:40px; border-radius:50%;">
+    <div class="logo">أهلاً في منصة الكسائي</div>
+</div>
+
+<div class="menu">
+<a href="#">الرئيسية</a>
+<a href="#services">الخدمات</a>
+<a href="#links">روابط مهمة</a>
+<a href="#about">من نحن</a>
+<a href="#school">عن المدرسة</a>
+<a href="#achievements">الإنجازات</a>
+</div>
+
+</nav>
+
+<!-- الرئيسية -->
+<div class="container">
+
+<div class="card">
+<h2>أهلاً بك في الكسائي:</h2>
+
+<div class="box">موقع شامل لكل احتياجات الطالب</div>
+<div class="box">خدمات تعليمية سهلة وسريعة</div>
+<div class="box">بيئة رقمية مريحة وآمنة</div>
+<div class="box">ابدأ رحلتك الآن</div>
+</div>
+
+</div>
+
+<!-- الخدمات -->
+<section id="services">
+
+<h2>الخدمات</h2>
+
+<div class="services-grid">
+
+<div class="service-box"><a href="https://schools.madrasati.sa" target="_blank">مدرستي</a></div>
+<div class="service-box"><a href="#">قدرات</a></div>
+<div class="service-box"><a href="#">تطوع</a></div>
+<div class="service-box"><a href="#">تواصل</a></div>
+<div class="service-box"><a href="#">برمجة</a></div>
+
+</div>
+</section>
+
+<!-- الروابط -->
+<section id="links">
+
+<h2>روابط تهمك</h2>
+
+<div class="services-grid">
+
+<div class="service-box"><a href="https://noor.moe.gov.sa" target="_blank">نور</a></div>
+<div class="service-box"><a href="https://qiyas.sa" target="_blank">قياس</a></div>
+<div class="service-box"><a href="https://office.com" target="_blank">تيمز</a></div>
+<div class="service-box"><a href="https://moe.gov.sa" target="_blank">وزارة التعليم</a></div>
+<div class="service-box"><a href="https://volunteer.saudiplatform.sa" target="_blank">التطوع</a></div>
+
+</div>
+</section>
+
+<!-- من نحن -->
+<section id="about">
+
+<h2>من نحن</h2>
+
+<div class="grid-cards">
+
+<div class="card-box">
+<h3>نبذة</h3>
+<p>منصة تعليمية للطلاب والخدمات.</p>
+</div>
+
+<div class="card-box">
+<h3>الرؤية</h3>
+<p>التميز في التعليم.</p>
+</div>
+
+<div class="card-box">
+<h3>الرسالة</h3>
+<p>تسهيل التعلم للطلاب.</p>
+</div>
+
+<div class="card-box">
+<h3>الأهداف</h3>
+<p>رفع مستوى الطلاب.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- المدرسة -->
+<section id="school">
+
+<h2>عن المدرسة</h2>
+
+<div class="grid-cards">
+
+<div class="card-box">
+<h3>نبذة</h3>
+<p>ثانوية الكسائي.</p>
+</div>
+
+<div class="card-box">
+<h3>الرؤية</h3>
+<p>تعليم متطور.</p>
+</div>
+
+<div class="card-box">
+<h3>الرسالة</h3>
+<p>بيئة تعليمية مميزة.</p>
+</div>
+
+<div class="card-box">
+<h3>الأهداف</h3>
+<p>تطوير الطلاب.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- الإنجازات -->
+<section id="achievements">
+
+<h2>إنجازات ثانوية الكسائي</h2>
+
+<div class="grid-cards">
+
+<div class="card-box">
+<img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=800&auto=format&fit=crop">
+<h3>تفوق دراسي</h3>
+<p>نتائج عالية.</p>
+</div>
+
+<div class="card-box">
+<img src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?q=80&w=800&auto=format&fit=crop">
+<h3>مسابقات</h3>
+<p>جوائز علمية.</p>
+</div>
+
+<div class="card-box">
+<img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop">
+<h3>تقنية</h3>
+<p>مشاريع برمجة.</p>
+</div>
+
+<div class="card-box">
+<img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=800&auto=format&fit=crop">
+<h3>تطوع</h3>
+<p>خدمة المجتمع.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- footer -->
+<footer>
+
+جميع الحقوق محفوظة ©️ 2026 <br>
+تم تصميم هذا الموقع بكل ❤️<br><br>
+
+صُنع الموقع من طلاب ثانوية الكسائي:<br>
+بندر بدر العنزي • عبدالإله صالح الشمري • باسل فيصل العنزي
+
+</footer>
+
+</body>
+</html>
+>>>>>>> c8fa430 (Initial commit - منصة الكسائي)
