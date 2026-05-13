@@ -1,0 +1,14 @@
+{
+  "name": "school",
+  "version": "1.0.0",
+  "description": "School project",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
